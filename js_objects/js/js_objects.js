@@ -22,3 +22,24 @@ function TestNumber2() {
     alert(n);
 }
 
+function TestString() {
+
+    var name = "Fernando Seguim"
+    var character = name[TestString3()];
+    alert(character);
+}
+
+
+function TestString2() {
+
+    var name = "Fernando Seguim"
+    var size = name.length;
+    alert(size);
+}
+
+function TestString3(){
+
+    var str = "Fernando Seguim";
+    var n = str.indexOf("Seguim");
+    return n;
+}
